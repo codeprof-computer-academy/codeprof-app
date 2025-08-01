@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login | codeprof academy</title>
+    <link rel="stylesheet" href="./images/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+
+<body>
+
+    <header>
+        <span>
+            <img src="./images/logo.png" alt="" width="25">
+            <b>Codeprof Academy</b>
+        </span>
+        <nav>
+            <a href="index.html"> <img src="./images/home.png" alt="" width="20"> Home</a>
+            <a href="about.html"> <img src="./images/about.png" alt="" width="20"> About us</a>
+            <a href="courses.html"> <img src="./images/courses.png" alt="" width="20"> Courses</a>
+            <a href="register.html"> <img src="./images/register.png" alt="" width="20"> Signup</a>
+            <a href="login.html"> <img src="./images/login.png" alt="" width="20"> Login</a>
+            <a href="contact.html"> <img src="./images/contact.png" alt="" width="20"> Contact us</a>
+        </nav>
+        <button class="menu-btn"></button>
+    </header>
+    <main>
+        <form class="login-form">
+            <h3>Login here</h3>
+            <label>
+                username
+                <input type="text" placeholder="username" required class="username">
+            </label>
+
+            <label class="password-group">
+                password
+                <input type="password" required class="password">
+                <button type="button" class="show-btn"></button>
+            </label>
+            <button class="submit-btn">Login</button>
+            <p>New Member? <a href="register.html">Signup</a></p>
+
+            <!-- dash baord -->
+            
+        </form>
+    </main>
+    <footer>
+        <p>&copy; Copyright <span class="year"></span>. All rights reserved. Powered by Codeprof Academy.</p>
+    </footer>
+
+
+    <script src="db.js"></script>
+    <script src="registered_users.js"></script>
+    <script src="app.js"></script>
+    <script src="login.js"></script>
+</body>
+
+</html>
